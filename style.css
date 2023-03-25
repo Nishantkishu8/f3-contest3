@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(47, 138, 191);
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#getLocationBtn{
+    height: 50px;
+    width: 150px;
+    margin: 50px;
+    background-color: rgb(8, 8, 40);
+    color: white;
+    cursor: pointer;
+    
+}
+#removeLocationBtn{
+    height: 50px;
+    width: 150px;
+    margin: 50px;
+    background-color: rgb(70, 70, 107);
+    color: white;
+    cursor: progress;
+}
